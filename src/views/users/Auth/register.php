@@ -1,18 +1,18 @@
 <main>
     <div class="form">
-        <div>
+        <div class="form-group">
             <label for="">Nome</label> 
             <input type="text" class="form-control">
         </div>
-        <div>
+        <div class="form-group">
             <label for="">Nome</label> 
             <input type="text" class="form-control">
         </div>
-        <div>
+        <div class="form-group">
             <label for="">Nome</label> 
             <input type="text" class="form-control">
         </div>
-        <div>
+        <div class="form-group">
             <label for="">Nome</label> 
             <input type="text" class="form-control">
         </div>

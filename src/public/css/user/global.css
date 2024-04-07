@@ -56,6 +56,12 @@ input {
   padding: 15px 50px 15px 50px;
 }
 
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 /* 
     FONT MONTSERRA
 */
