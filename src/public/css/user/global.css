@@ -1,0 +1,61 @@
+:root {
+  --gray-300: #eeeeee;
+  --gray-700: #3d3d3d;
+  --gray-800: #404040;
+  --white: #ffff;
+  --dark: #101010;
+  --green-300: #02c047;
+  --green-400: #00af40;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--gray-700);
+}
+
+input {
+  border-radius: 8px;
+  border-color: var(--white);
+  background: var(--gray-300);
+  padding: 10px 10px 10px 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 0.9rem;
+  background: var(--green-400);
+  border-color: var(--green-300);
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--white);
+  border-color: var(--white);
+  color: var(--green-400);
+  font-weight: 800;
+}
+
+.btn-sm {
+  padding: 15px 20px 20px 15px;
+}
+
+.btn-md {
+  padding: 15px 50px 15px 50px;
+}
+
+.btn-lg {
+  padding: 15px 50px 15px 50px;
+}
+
+/* 
+    FONT MONTSERRA
+*/
